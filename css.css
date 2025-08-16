@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+body{
+    background-color: rgb(109, 88, 127);
+    display: flex;
+}
+.img{
+    width: 50px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.img img{
+    width: 100%;
+}
+.profil{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu{
+    background-color:rgb(198, 177, 216);
+    width:260px;
+   height: 100vh;
+   padding: 20px;
+  
+}
+ul{
+    list-style: none;
+     position: relative;
+      height: 95%;
+}
+ul li a{
+  display: block;
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px;
+    display:flex;
+    border-radius: 8px;
+    align-items: center;
+    gap: 30px;
+}
+ul li :hover {
+    background-color:rgb(128, 94, 157);
+    position: relative;
+   
+}
+.log-out{
+ position: absolute;
+ bottom: 0;
+ width: 100%;
+}
+.log-out{
+    background-color:rgb(109, 88, 127) ;
+}
+ul li a i{
+    font-size: 20px;
+    color:rgb(155, 113, 191); 
+}
+.content{
+    width: 50%;
+    margin:15px; 
+}
+.title{
+    background-color:rgb(145, 116, 171);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 10px;
+    margin: 10px 0px;
+}
+.data-info{
+    width: 100%;
+    padding: 3px;
+   border-radius: 50px;
+   margin: 10px;
+   background-color: rgb(190, 153, 223);;
+}
+.data-info img{
+    width: 20%;
+    height:25% ;
+  padding-left: 350px;
+ 
+}
+.sport{
+    text-align: center;
+    border: 20px;
+    background-color:rgb(198, 177, 216);
+    background-image: url("Screenshot\ 2025-08-16\ 234509.png");
+    width: 40%;
+    margin: 15px;
+   padding-top: 40px;
+   border-radius: 80%;
+ line-height: 60px;
+}
+.sport h1{
+    color: rgb(177, 148, 203);
+}
+.sport h1:hover{
+  color:rgb(109, 88, 127) ;
+}
+.sport h2:hover{
+    
+  color:rgb(109, 88, 127);
+}
